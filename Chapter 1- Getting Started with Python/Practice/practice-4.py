@@ -1,8 +1,6 @@
 '''Compute the area of a triangle'''
 
-print("Enter the height: ")
-height = int(input())
-print("Enter the base: ")
-base = int(input())
+height = int(input("Enter the height: "))
+base = int(input("Enter the base: "))
 area = 1/2 * height * base
 print("Area of triangle: ", area)

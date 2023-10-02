@@ -4,4 +4,4 @@ x = "I"
 y = "am"
 z = "Khadeeja"
 
-print(x, y, z)
+print(x + y + z)

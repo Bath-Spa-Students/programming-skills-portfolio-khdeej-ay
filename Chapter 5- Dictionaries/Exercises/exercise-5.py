@@ -13,9 +13,9 @@ pets = [{"kind":"cat" , "owner":"Amna"},
 
 # loop to go through the list and print each pet's information
 for each_pet in pets:
-    # printing a new line to make the code cleaner
-    print("\n")
     # printing each pet's name
     print(f"Kind of pet: {each_pet['kind']}")
     # printing each pet's owner
     print(f"Owner\'s name: {each_pet['owner']}")
+    # printing a new line to make the code cleaner (separate each pet's info)
+    print("\n")

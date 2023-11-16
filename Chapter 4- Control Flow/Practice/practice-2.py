@@ -1,8 +1,8 @@
 '''Write an if-else statement that assigns O to the variable b if the variable 
 a is less than 10. Otherwise, it should assign 99 to the variable b.'''
 
-# ask user to input a integer in 'a' / can also just give variable 'a' a value 
-a = int(input("Enter an integer: "))
+# store random integer in variable a
+a = 18
 
 # if statement checks if a is less than 10
 if a < 10: 
@@ -11,3 +11,6 @@ if a < 10:
 # if a is not less than 10 then this else block runs
 else: 
     b = 99
+
+# print b (0 if a<10 or 99 if a>10)
+print(b)

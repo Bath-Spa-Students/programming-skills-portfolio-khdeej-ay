@@ -13,7 +13,7 @@ if amount1 > 10:
     if amount2 < 100: 
         # if top if's are true, then checks if amount1 is more than amount2
         if amount1 > amount2:
-            print(f'Amount1 ({amount1}) is the greater amount.')
+            print(f'\nAmount1 ({amount1}) is the greater amount.')
         # else if top if's are true, checks if amount2 is more than amount1
         elif amount1 < amount2: 
-            print(f'Amount2 ({amount2}) is the greater amount.')
+            print(f'\nAmount2 ({amount2}) is the greater amount.')

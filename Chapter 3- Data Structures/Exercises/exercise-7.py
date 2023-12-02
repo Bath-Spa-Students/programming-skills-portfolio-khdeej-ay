@@ -21,40 +21,40 @@ Print the list to show that its order has changed.'''
 places = ["London", "Rome", "NYC", "Berlin", "Greece", "Georgia"]
 
 # print list in original order
-print(places)
+print("Original order:", places)
 
 # sort list in alphabetical order without changing the actual list
 sorted_places = sorted(places)
 #print the alphabetical list
-print(sorted_places)
+print("Alphabetical order:", sorted_places)
 
 # prove that the actual list is in the original order
-print(places)
+print("Original order:", places)
 
 # sort list in reverse order without changing the actual list
 reversed_places = sorted(places, reverse=True)
 # print the reverse list
-print(reversed_places)
+print("Reverse order:", reversed_places)
 
 # prove AGAIN that the actual list is in the original order
-print(places)
+print("Original order:", places)
 
 # use the reverse function to reverse the list elements
 places.reverse()
 # print proof that the actual list is now changed to the reversed list
-print(places)
+print("Reversed list:", places)
 
 # use reverse AGAIN to revert the list back to its original order
 places.reverse()
 # print the list after reversing it twice; back to the original list
-print(places)
+print("Original list:", places)
 
 # use the sort function to sort the actual list in alphabetical order
 places.sort()
 # print proof that the actual list is now changed to the alphabetical list
-print(places)
+print("Alphabetical list:", places)
 
 # use sort AGAIN to revert the list back to its original order
 places.sort()
 # print the list after sorting it twice; back to the original list
-print(places)
+print("Original list:", places)
